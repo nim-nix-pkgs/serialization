@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-serialization-master.flake = false;
+  inputs.src-serialization-master.ref   = "refs/heads/master";
   inputs.src-serialization-master.owner = "status-im";
-  inputs.src-serialization-master.ref   = "master";
   inputs.src-serialization-master.repo  = "nim-serialization";
   inputs.src-serialization-master.type  = "github";
   
